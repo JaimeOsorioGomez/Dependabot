@@ -5,8 +5,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: "bundler" # See documentation for possible values
-    directory: "/updater" # Location of package manifests
+  - package-ecosystem: "gomod" 
+    directory: "/go_modules/helpers"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "thursday"
       time: "18:00"
