@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "mix" 
-    directory: "/hex/helpers/mix.exs"
+    directory: "/hex/helpers/mix.exs/mix.exs"
     schedule:
       interval: "weekly"
       day: "thursday"
