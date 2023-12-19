@@ -5,8 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "mix" 
-    directory: "/hex/helpers/mix.exs/mix.exs"
+  - package-ecosystem: "npm" 
+    directory: "/"
     schedule:
       interval: "weekly"
       day: "thursday"
